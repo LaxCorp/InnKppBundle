@@ -3,7 +3,7 @@ INN + KPP validation for ORM Entity
 
 Install 
 -------
-composer require laxgroup/inn-kpp-bundle
+composer require laxcorp/inn-kpp-bundle
 
 Add in app/AppKernel.php
 ------------------------
