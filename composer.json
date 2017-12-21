@@ -2,7 +2,7 @@
   "name": "laxgroup/inn-kpp-bundle",
   "description": "Symfony Inn Kpp ORM Entity validator",
   "type": "symfony-bundle",
-  "homepage": "https://github.com/laxgroup/InnKppBundle",
+  "homepage": "https://github.com/LaxCorp/InnKppBundle",
   "license": "MIT",
   "keywords": [
     "inn",
@@ -11,8 +11,8 @@
   ],
   "authors": [
     {
-      "name": "Lax Group",
-      "email": "laxgroup@mail.ru"
+      "name": "Lax Corp",
+      "email": "LaxCorp@mail.ru"
     }
   ],
   "require": {
@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "LaxGroup\\InnKppBundle\\": ""
+      "LaxCorp\\InnKppBundle\\": ""
     }
   }
 }

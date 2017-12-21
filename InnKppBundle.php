@@ -1,6 +1,6 @@
 <?php
 
-namespace LaxGroup\InnKppBundle;
+namespace LaxCorp\InnKppBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

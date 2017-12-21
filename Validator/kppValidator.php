@@ -1,6 +1,6 @@
 <?php
 
-namespace LaxGroup\InnKppBundle\Validator;
+namespace LaxCorp\InnKppBundle\Validator;
 
 /**
  * Class kppValidator

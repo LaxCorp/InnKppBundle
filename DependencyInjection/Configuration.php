@@ -1,6 +1,6 @@
 <?php
 
-namespace LaxGroup\InnKppBundle\DependencyInjection;
+namespace LaxCorp\InnKppBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -8,12 +8,12 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 /**
  * Class Configuration
  *
- * @package LaxGroup\InnKppBundle\DependencyInjection
+ * @package LaxCorp\InnKppBundle\DependencyInjection
  */
 class Configuration implements ConfigurationInterface
 {
 
-    const ROOT = 'inn_kpp';
+    const ROOT = 'laxgroup.inn_kpp';
 
     /**
      * @return TreeBuilder

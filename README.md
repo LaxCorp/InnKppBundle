@@ -9,13 +9,13 @@ Add in app/AppKernel.php
 ------------------------
 ```php
 $bundles = [
-    new LaxGroup\InnKppBundle\InnKppBundle()
+    new LaxCorp\InnKppBundle\InnKppBundle()
 ]
 ```
 
 Use in Entity
 -------------
-use LaxGroup\InnKppBundle\Validator\Constraints\InnKppEntity;
+use LaxCorp\InnKppBundle\Validator\Constraints\InnKppEntity;
 ```php
 /**
  *
@@ -38,7 +38,7 @@ Example AppBundle/Entity/Company.php
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use LaxGroup\InnKppBundle\Validator\Constraints\InnKppEntity;
+use LaxCorp\InnKppBundle\Validator\Constraints\InnKppEntity;
 
 /**
  *

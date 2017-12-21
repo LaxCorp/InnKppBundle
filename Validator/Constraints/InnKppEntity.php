@@ -1,6 +1,6 @@
 <?php
 
-namespace LaxGroup\InnKppBundle\Validator\Constraints;
+namespace LaxCorp\InnKppBundle\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 

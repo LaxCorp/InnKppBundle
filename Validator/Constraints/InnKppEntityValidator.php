@@ -1,12 +1,13 @@
 <?php
 
-namespace LaxGroup\InnKppBundle\Validator\Constraints;
+namespace LaxCorp\InnKppBundle\Validator\Constraints;
 
-use InnKppBundle\Validator\innVlaidator;
-use InnKppBundle\Validator\kppValidator;
+use LaxCorp\InnKppBundle\Validator\innVlaidator;
+use LaxCorp\InnKppBundle\Validator\kppValidator;
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\Common\Persistence\Mapping\ClassMetadata;
 use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\ORM\Mapping\ClassMetadataInfo;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;
 use Symfony\Component\Validator\Exception\ConstraintDefinitionException;
@@ -86,7 +87,7 @@ class InnKppEntityValidator extends ConstraintValidator
             }
         }
 
-        /* @var $class ClassMetadata */
+        /* @var $class ClassMetadataInfo */
         $class = $em->getClassMetadata(get_class($entity));
 
         $criteria = [];

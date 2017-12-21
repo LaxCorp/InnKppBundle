@@ -1,6 +1,6 @@
 <?php
 
-namespace LaxGroup\InnKppBundle\DependencyInjection;
+namespace LaxCorp\InnKppBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
