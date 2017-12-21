@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="INN was empty">
+        <source>INN was empty</source>
+        <target>ИНН не заполнен</target>
+      </trans-unit>
+      <trans-unit id="INN consists of only digits">
+        <source>INN consists of only digits</source>
+        <target>ИНН должен состоять только из цифр</target>
+      </trans-unit>
+      <trans-unit id="INN consists of only 10 or 12 digits">
+        <source>INN consists of only 10 or 12 digits</source>
+        <target>ИНН должен состоять из 10 или 12 цифр</target>
+      </trans-unit>
+      <trans-unit id="Wrong control number">
+        <source>Wrong control number</source>
+        <target>Неверное контрольное число</target>
+      </trans-unit>
+      <trans-unit id="KPP was empty">
+        <source>KPP was empty</source>
+        <target>КПП не заполнен</target>
+      </trans-unit>
+      <trans-unit id="KPP may consist of only 9 characters">
+        <source>KPP may consist of only 9 characters</source>
+        <target>КПП должен состоять из 9 символов</target>
+      </trans-unit>
+      <trans-unit id="KPP invalid">
+        <source>KPP invalid</source>
+        <target>Введите корректный КПП</target>
+      </trans-unit>
+      <trans-unit id="Incorrect format KPP">
+        <source>Incorrect format KPP</source>
+        <target>Неверный формат КПП</target>
+      </trans-unit>
+      <trans-unit id="This value is already used.">
+        <source>This value is already used.</source>
+        <target>Это значение уже используется.</target>
+      </trans-unit>
+      <trans-unit id="INN is less than 12 digits, you must enter KPP">
+        <source>INN is less than 12 digits, you must enter KPP</source>
+        <target>ИНН меньше 12 цифр, необходимо ввести КПП</target>
+      </trans-unit>
+      <trans-unit id="INN invalid">
+        <source>INN invalid</source>
+        <target>Введите корректный ИНН</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
