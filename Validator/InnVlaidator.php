@@ -3,11 +3,11 @@
 namespace LaxCorp\InnKppBundle\Validator;
 
 /**
- * Class innVlaidator
+ * Class InnVlaidator
  *
- * @package InnKppBundle\Validator
+ * @package LaxCorp\InnKppBundle\Validator
  */
-class innVlaidator
+class InnVlaidator
 {
     const MESSAGE_INN_EMPTY = 'INN was empty';
     const MESSAGE_INN_ONLY_DIGITS = 'INN consists of only digits';

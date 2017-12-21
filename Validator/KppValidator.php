@@ -3,11 +3,11 @@
 namespace LaxCorp\InnKppBundle\Validator;
 
 /**
- * Class kppValidator
+ * Class KppValidator
  *
- * @package InnKppBundle\Validator
+ * @package LaxCorp\InnKppBundle\Validator
  */
-class kppValidator
+class KppValidator
 {
 
     const MESSAGE_KPP_EMPTY = 'KPP was empty';

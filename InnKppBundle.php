@@ -7,7 +7,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * Class InnKppBundle
  *
- * @package InnKppBundle
+ * @package LaxCorp\InnKppBundle
  */
 class InnKppBundle extends Bundle
 {

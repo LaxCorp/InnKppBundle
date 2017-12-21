@@ -2,8 +2,8 @@
 
 namespace LaxCorp\InnKppBundle\Validator\Constraints;
 
-use LaxCorp\InnKppBundle\Validator\innVlaidator;
-use LaxCorp\InnKppBundle\Validator\kppValidator;
+use LaxCorp\InnKppBundle\Validator\InnVlaidator;
+use LaxCorp\InnKppBundle\Validator\KppValidator;
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\Common\Persistence\Mapping\ClassMetadata;
 use Doctrine\Common\Persistence\ObjectManager;
@@ -99,7 +99,7 @@ class InnKppEntityValidator extends ConstraintValidator
         $innValue     = $class->reflFields[$fieldInn]->getValue($entity);
         $errorMessage = null;
 
-        $innValidator = new innVlaidator();
+        $innValidator = new InnVlaidator();
 
         if ($innValue !== null && !$innValidator->validate($innValue, $errorMessage)) {
 
@@ -115,7 +115,7 @@ class InnKppEntityValidator extends ConstraintValidator
         $kppValue     = $class->reflFields[$fieldKpp]->getValue($entity);
         $errorMessage = null;
 
-        $kppValidator = new kppValidator();
+        $kppValidator = new KppValidator();
 
         if ($kppValue !== null && !$kppValidator->validate($kppValue, $errorMessage)) {
 

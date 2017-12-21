@@ -1,8 +1,8 @@
 INN + KPP validation for ORM Entity
 =======================================================
 
-Install width composer
-----------------------
+Install 
+-------
 composer require laxgroup/inn-kpp-bundle
 
 Add in app/AppKernel.php
@@ -15,7 +15,10 @@ $bundles = [
 
 Use in Entity
 -------------
+```
 use LaxCorp\InnKppBundle\Validator\Constraints\InnKppEntity;
+```
+
 ```php
 /**
  *
