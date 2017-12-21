@@ -1,5 +1,5 @@
 {
-  "name": "laxgroup/inn-kpp-bundle",
+  "name": "laxcorp/inn-kpp-bundle",
   "description": "Symfony Inn Kpp ORM Entity validator",
   "type": "symfony-bundle",
   "homepage": "https://github.com/LaxCorp/InnKppBundle",
