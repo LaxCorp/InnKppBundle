@@ -1,7 +1,6 @@
 services:
-
-    laxgroup.inn_kpp_entity_validator:
-        class: InnKppBundle\Validator\Constraints\InnKppEntityValidator
+    inn_kpp_entity_validator:
+        class: LaxCorp\InnKppBundle\Validator\Constraints\InnKppEntityValidator
         public: true
         arguments: [ "@doctrine" ]
         tags:

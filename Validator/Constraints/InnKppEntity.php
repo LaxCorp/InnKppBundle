@@ -18,7 +18,7 @@ class InnKppEntity extends Constraint
     /**
      * @var string
      */
-    public $service = 'laxgroup.inn_kpp_entity_validator';
+    public $service = 'inn_kpp_entity_validator';
 
     /**
      * @var null
