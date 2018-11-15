@@ -4,6 +4,7 @@
   "type": "symfony-bundle",
   "homepage": "https://github.com/LaxCorp/InnKppBundle",
   "license": "MIT",
+  "minimum-stability": "stable",
   "keywords": [
     "inn",
     "kpp",
