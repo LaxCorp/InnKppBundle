@@ -13,6 +13,23 @@ $bundles = [
 ]
 ```
 
+Use in field (Inn only)
+-------------
+
+```php
+use LaxCorp\InnKppBundle\Validator\Constraints\Inn as AssertInn;
+
+....
+
+/**
+ * @var string|null
+ *
+ * @ORM\Column(name="inn", type="string", length=255, nullable=true)
+ * @AssertInn
+ */
+private $inn;
+```
+
 Use in Entity
 -------------
 ```
